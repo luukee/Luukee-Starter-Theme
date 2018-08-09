@@ -1,0 +1,33 @@
+h1 {
+	color: $body-background;
+}
+
+.hidden-element {
+	color: $body-background;
+	&:hover {
+		color: $body-background;
+		cursor: default;
+	}
+}
+
+h2 {
+	color: $medium-gray;
+	text-transform: uppercase;
+	font-weight: 700;
+} 
+
+.primary { 
+	color: $primary-color;
+}
+
+.secondary {
+	color: $secondary-color;
+}
+
+.tertiary {
+	color: $tertiary;
+}
+
+.google {
+	color: #ffa700;
+}
